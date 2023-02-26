@@ -1,0 +1,48 @@
+{
+  "name": "serenity",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "@volar-plugins/vetur": "^0.1.0",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "roboto-fontface": "*",
+    "v-calendar": "^3.0.0-alpha.8",
+    "vue": "^3.2.38",
+    "vue-demi": "^0.13.11",
+    "vue-recaptcha": "^2.0.3",
+    "vue-recaptcha-v3": "^2.0.1",
+    "vuetify": "^3.0.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^4.0.3",
+    "@rollup/plugin-buble": "^1.0.2",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/pluginutils": "^5.0.2",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "axios": "^1.2.1",
+    "chromedriver": "^110.0.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "eslint-plugin-vuetify": "^2.0.0-beta.2",
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.6.15",
+    "pinia": "^2.0.32",
+    "rollup": "^3.17.3",
+    "vite": "^3.1.9",
+    "vite-plugin-nightwatch": "^0.4.2",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-router": "^4.1.6"
+  }
+}
