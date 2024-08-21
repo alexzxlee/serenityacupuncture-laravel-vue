@@ -1,8 +1,8 @@
 <template>
     <v-dialog v-model="isNotLogin" width="auto" @click:outside="closeDialog" >
-        <v-text-field label="Username" v-model="username" :rules="[required]" clearable style="color:aquamarine">
+        <v-text-field label="Username" v-model="username" :rules="[required]" clearable style="color:aquamarine" hint="user123">
         </v-text-field>
-        <v-text-field label="Password" v-model="password" :rules="[required]" clearable style="color:aquamarine">
+        <v-text-field label="Password" v-model="password" :rules="[required]" clearable style="color:aquamarine" hint="pass123">
         </v-text-field>
         <v-btn color="success" @click="login" :disabled="!username || !password" block size="large" type="submit" variant="elevated" style="margin-top:10px;" min-width="228">
             Login&nbsp;<v-icon>mdi-login-variant</v-icon>
